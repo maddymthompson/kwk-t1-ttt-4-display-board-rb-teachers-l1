@@ -3,11 +3,11 @@
 board = Array.new(9," ")
 
 def display_board(board)
-  puts " #{baord[0]} | #{baord[1]}| #{baord[2]} "
+  puts " #{board[0]} | #{board[1]}| #{board[2]} "
   puts "---------------"
-  puts " #{baord[3]} | #{baord[4]}| #{baord[5]} "
+  puts " #{board[3]} | #{board[4]}| #{board[5]} "
   puts "---------------"
-  puts " #{baord[6]} | #{baord[7]}| #{baord[8]} "
+  puts " #{board[6]} | #{board[7]}| #{board[8]} "
 end
 
 display_board(board)
